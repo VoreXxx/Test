@@ -7,7 +7,7 @@ public class Main {
         return new String[]{firstHalf, secondHaf};
     }
     public static void main(String[] args) {
-        String str = "Промокашка";
+        String str = "Кирпич";
         String[] halves = splitString(str);
         System.out.println("Первая часть " + halves[0]);
         System.out.println("Второая часть " + halves[1]);
